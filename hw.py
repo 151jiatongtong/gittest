@@ -7,9 +7,11 @@ dic = {}
 def add_record():
     name = input("请输入姓名：")
     phone = input("请输入电话：")
+    global id_record
+    id_record += 1
     dic["name"] = name
     dic["phone"] = phone
-
+    dic["id"] = id_record
     print("添加成功：", dic)
 
 def query_record():
