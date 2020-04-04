@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 all_record = []
 id_record = 0
 
@@ -77,3 +78,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+print('222')
+>>>>>>> 19f203e0be083f315ebdc0eb2ee6e164df86ff8f
