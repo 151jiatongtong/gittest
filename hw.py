@@ -28,8 +28,8 @@ def query_record():
 
 def change_record():
     old = input("请输入要修改人姓名：")
-    change = int(input("请选择要修改的信息：1.name 2.phone"))
-    new = input("请输入新的name 或 phone")
+    change = int(input("请选择要修改的信息：1.name 2.phone:"))
+    new = input("请输入新的name 或 phone:")
     for i in all_record:
         if old == i.get("name"):
             if change == 1:
@@ -75,4 +75,5 @@ def main():
             print("退出")
             break
 
-main()
+if __name__ == "__main__":
+    main()
