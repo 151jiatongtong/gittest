@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """第二天作业"""
 
+
+
 def test(info):
     if info["username"] == 'root' and info['passwd'] == '123':
         print('你有权限')
