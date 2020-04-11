@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+import openpyxl
 class Record:
     glo_id = 0
 
