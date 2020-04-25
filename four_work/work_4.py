@@ -28,7 +28,7 @@ def extract_urls(url):
 def scrapy():
     while True:
         if not url_queue.empty():
-            with lock:
+
                 current_url = url_queue.get()
                 print(current_url)
                 sotre(current_url)
